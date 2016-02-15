@@ -1,0 +1,12 @@
+
+/* Loader */
+
+	body:before, body:after {
+		display: none !important;
+	}
+
+/* Poptrox */
+
+	.poptrox-popup .loader {
+		display: none !important;
+	}
