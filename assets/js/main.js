@@ -78,7 +78,7 @@
 						$('.main.style1')
 							.scrollex({
 								mode:		'middle',
-								delay:		100,
+								delay:		50,
 								initialize:	function() { $(this).addClass('inactive'); },
 								terminate:	function() { $(this).removeClass('inactive'); },
 								enter:		function() { $(this).removeClass('inactive'); },
@@ -88,7 +88,7 @@
 						$('.main.style2')
 							.scrollex({
 								mode:		'middle',
-								delay:		100,
+								delay:		50,
 								initialize:	function() { $(this).addClass('inactive'); },
 								terminate:	function() { $(this).removeClass('inactive'); },
 								enter:		function() { $(this).removeClass('inactive'); },
