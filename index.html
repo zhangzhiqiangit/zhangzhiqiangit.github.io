@@ -1,28 +1,113 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="KEYWords" contect="zzq">
-	<title>President Qiang</title>
-	<link rel="stylesheet" href="ccc.css" />
-	<link href="favicon.png"  rel="shortcut icon">	
+    <meta charset="utf-8">
+    <title>President Qiang</title>
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+
+    <style>
+    /* ---- reset ---- */
+
+    body {
+        margin: 0;
+        font: normal 75% Arial, Helvetica, sans-serif;
+         
+    }
+    
+    canvas {
+        display: block;
+        vertical-align: bottom;
+    }
+   
+    
+    #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        --background-color: #091f46;
+        background-image: url("");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    /* ---- stats.js ---- */
+            
+    #stats {
+        border-radius: 3px 3px 0 0;
+        overflow: hidden;
+    }           
+    #div1 {
+        -webkit-user-select: none;
+        position: absolute;
+        z-index: 10;
+        --width: 440px;
+        --height: 140px;
+        
+        --background: rgba(0,0,0,0.3);
+        *background: #616161;
+        *filter: alpha(opacity=100);
+        left: 102%;
+        top: 12%;
+        margin-left: -220px;
+        margin-top: -120px;
+        padding: 20px;
+        border-radius: 12px;
+        color: #eee;
+        font-family: Georgia, serif;
+    }
+    .home-h2{
+       color: #eee;
+       font-weight: normal;
+       font-size: 24px;
+       text-align: center;
+       line-height: 36px;
+       *font-weight: bold;
+    }
+    .home-p{
+        background: rgba(154,154,154,0.5);
+        *
+        background: #9a9a9a;
+        padding: 10px;
+        line-height: 24px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        font-size: 18px;
+        *
+        color: #000;
+    }
+    
+    #div1 p a{
+       color: #eee;
+      *
+      font-weight: bold;
+      *
+      color: #000;
+    }
+
+    </style>
 </head>
+
 <body>
-	<a id="fork" href="https://github.com/zhangzhiqiangit/zhangzhiqiangit.github.io" target="_blank">
-        <img src="https://i.alipayobjects.com/e/201211/1dbSqT9ykm.png" alt="Fork me on GitHub">
-    </a>
-	<ul>
-		<li id="particle">
-			<section class="container"></section>
-			<p class="info">强</p>
-		</li>		
-	</ul>
-	<aside id="btn" style=" display: none; ">
-		<span class="active"></span>		
-	</aside>
-	<!-- 引入插件 -->
-	<script src="zzz.min.js"></script>
-	<script src="qqq.min.js"></script>
-	<script src="https://s95.cnzz.com/z_stat.php?id=1257619527&web_id=1257619527" language="JavaScript"></script>
+<img border='0' src='666.jpg' width='100%' height='100%' style='position: absolute;left:0px;top:0px;z-index: -1'>
+    <div id="particles-js"></div>
+     <div id="div1">
+     	<!--
+	    <h2 class="home-h2">
+	      编织精彩,程就未来     
+	    </h2>  
+	    -->  
+        <p class="home-p">
+            <font aria-hidden="true">»</font>
+            <a href="module.html" aria-label="">组件库</a>
+            <font aria-hidden="true">/</font>
+            <a href="about.html" >关于</a>            
+        </p>       
+    </div>
+    <script src="stats.min.js"></script>
+    <script src="particles.js"></script>   
+    <script src="particles-config.js"></script>   
+    <script src="Stats.js"></script>
 </body>
+
 </html>
