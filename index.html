@@ -5,21 +5,18 @@
     <meta charset="utf-8">
     <title>President Qiang</title>
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
-
     <style>
     /* ---- reset ---- */
-
+    
     body {
         margin: 0;
         font: normal 75% Arial, Helvetica, sans-serif;
-         
     }
     
     canvas {
         display: block;
         vertical-align: bottom;
     }
-   
     
     #particles-js {
         position: absolute;
@@ -32,19 +29,19 @@
         background-position: 50% 50%;
     }
     /* ---- stats.js ---- */
-            
+    
     #stats {
         border-radius: 3px 3px 0 0;
         overflow: hidden;
-    }           
+    }
+    
     #div1 {
         -webkit-user-select: none;
         position: absolute;
         z-index: 10;
         width: 440px;
         height: 140px;
-        
-        background: rgba(0,0,0,0.3);
+        background: rgba(0, 0, 0, 0.3);
         *background: #616161;
         *filter: alpha(opacity=100);
         left: 50%;
@@ -56,58 +53,106 @@
         color: #eee;
         font-family: Georgia, serif;
     }
-    .home-h2{
-       color: #eee;
-       font-weight: normal;
-       font-size: 24px;
-       text-align: center;
-       line-height: 36px;
-       *font-weight: bold;
+    
+    .home-h2 {
+        color: #eee;
+        font-weight: normal;
+        font-size: 24px;
+        text-align: center;
+        line-height: 36px;
+        *font-weight: bold;
     }
-    .home-p{
-        background: rgba(154,154,154,0.5);
-        *
-        background: #9a9a9a;
+    
+    .home-p {
+        background: rgba(154, 154, 154, 0.5);
+        * background: #9a9a9a;
         padding: 10px;
         line-height: 24px;
         margin-bottom: 20px;
         border-radius: 8px;
         font-size: 18px;
-        *
+        * color: #000;
+
+    }
+    .home-p a{
+    	text-decoration: none;
+    }
+    .home-p a:hover{
+    	text-decoration: underline;
+    }
+    #div1 p:hover {
+        *background:  rgba(228,228,228,0.7);
+        background: #e4e4e4;
+        color: #9c9c9c;
+        *color: #9c9c9c;
+        text-decoration: none;
+        transition: all 0.4 ease;
+        -webkit-transition: all 0.4 ease;
+        -moz-transition: all 0.4 ease;
+        -o-transition: all 0.4 ease;
+    }
+    
+    #div1 p a {
+        color: #eee;
+        *font-weight: bold;
+        *color: #000;
+    }
+    
+    #div1 .icon {
+        font-size: 20px;
+        margin: 4px;
+    }
+    
+    #iv1 .icon a {
+        color: #ccc;
+        *color: #666;
+    }
+    
+    #div1 p:hover a {
         color: #000;
     }
     
-    #div1 p a{
-       color: #eee;
-      *
-      font-weight: bold;
-      *
-      color: #000;
+    #div1 p:hover .icon a {
+        color: #666;
     }
-
+    
+    #div1 p:hover .icon a:hover {
+        color: #000;
+        text-decoration: none;
+    }
+    
+    #div1 p a {
+        color: #eee;
+        * font-weight: bold;
+        * color: #000;
+    }
     </style>
 </head>
 
 <body>
     <div id="particles-js"></div>
-     <div id="div1">
-	    <h2 class="home-h2">
+    <div id="div1">
+        <h2 class="home-h2">
 	      编织精彩,程就未来     
-	    </h2>  	      
+	    </h2>
         <p class="home-p">
             <font aria-hidden="true">»</font>
             <a href="module.html" aria-label="">组件库</a>
             <font aria-hidden="true">/</font>
-            <a href="about.html" >关于</a>            
-        </p>       
+            <a href="about.html">关于</a>
+        </p>
     </div>
     <script src="stats.min.js"></script>
-    <script src="particles.js"></script>   
-    <script src="particles-config.js"></script>   
+    <script src="particles.js"></script>
+    <script src="particles-config.js"></script>
     <script src="Stats.js"></script>
-   <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1257619527'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1257619527' type='text/javascript'%3E%3C/script%3E"));</script>
+    <script type="text/javascript">
+    var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cspan id='cnzz_stat_icon_1257619527'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1257619527' type='text/javascript'%3E%3C/script%3E"));
+    </script>
 </body>
 <script type="text/javascript">
-	document.getElementsByTagName("span")[0].style.display="none";
+document.getElementsByTagName("span")[0].style.display = "none";
 </script>
+
 </html>
