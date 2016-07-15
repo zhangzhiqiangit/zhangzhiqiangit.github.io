@@ -16,3 +16,6 @@
 	float: left;
 	margin:0 50px 20px 0;
 }
+.main ul li a:hover{
+	border-bottom: 1px dotted #666;
+}
