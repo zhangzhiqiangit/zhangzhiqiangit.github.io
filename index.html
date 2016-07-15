@@ -40,7 +40,7 @@
         position: absolute;
         z-index: 10;
         width: 440px;
-        height: 140px;
+        height: 180px;
         background: rgba(0, 0, 0, 0.3);
         *background: #616161;
         *filter: alpha(opacity=100);
@@ -80,10 +80,25 @@
     .home-p a:hover{
     	text-decoration: underline;
     }
-    #div1 p:hover {
+
+    #div1 .home-p:hover a {
+        color: #000;
+    }
+    
+    .home-p2 a{
+    	float: right;
+    	margin-right: 10px;    	
+    	text-decoration: none;
+    }
+  
+    #div1 .home-p2 a:hover {
+        color:	#D2B48C ;
+        text-decoration: underline;
+    }
+    #div1 .home-p:hover {
         *background:  rgba(228,228,228,0.7);
-        background: #e4e4e4;
-        color: #9c9c9c;
+        background: #FFFACD  ;
+        color: 	#8B4513 ;
         *color: #9c9c9c;
         text-decoration: none;
         transition: all 0.4 ease;
@@ -108,24 +123,26 @@
         *color: #666;
     }
     
-    #div1 p:hover a {
-        color: #000;
-    }
-    
-    #div1 p:hover .icon a {
-        color: #666;
-    }
-    
-    #div1 p:hover .icon a:hover {
-        color: #000;
-        text-decoration: none;
-    }
+  
     
     #div1 p a {
         color: #eee;
         * font-weight: bold;
         * color: #000;
     }
+    @font-face {font-family: 'iconfont';
+    src: url('font-face/iconfont.eot'); /* IE9*/
+    src: url('font-face/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('font-face/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('font-face/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('font-face/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+	}
+	.iconfont{
+    font-family:"iconfont" !important;
+    font-size:26px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
     </style>
 </head>
 
@@ -141,6 +158,10 @@
             <font aria-hidden="true">/</font>
             <a href="about.html">关于</a>
         </p>
+        <p class="home-p2">            
+			<i class="iconfont" title="Github" ><a href="https://github.com/zhangzhiqiangit" target="_blank">&#xe66c;</a></i>			
+			<i class="iconfont" title="Sina Weibo"><a href="http://weibo.com/2702816655" target="_blank">&#xe6b4;</a></i>
+		</p>
     </div>
     <script src="stats.min.js"></script>
     <script src="particles.js"></script>
