@@ -231,8 +231,14 @@
                         }
                         $list1.animate(params,{easing:options.easing, duration: duration});
                 }
+                
                 $nav_list.removeClass(options.activeTriggerCls).eq(_index% _size).addClass(options.activeTriggerCls);   //导航选中
                 $lists.promise().then(callback);
+                if($("ul li:first").attr("class")!="active"){
+                    $('video').trigger('pause');
+                }else{
+                    $('video').trigger('play');
+                }
             }
         };
         //移动后回调
@@ -389,7 +395,7 @@
             }
             $list1.css('position','relative');
             //节点添加
-            if (options.hasTriggers) {  //是否存在导航
+            if (options.hasTriggers) {  //是否存在航
                 if (!$this.find("."+options.navCls).length) {   //使用children找不到
                     var list_str = "";
                     for (var i = 1; i <= _size ; i++) {
@@ -559,6 +565,7 @@
             var $this = $(this);
             var o = $.meta ? $.extend({}, options, $this.data()) : options;  
             var slider = new Slider(this,o);
+
             callback(slider);
         }); 
     };
