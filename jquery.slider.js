@@ -235,9 +235,18 @@
                 $nav_list.removeClass(options.activeTriggerCls).eq(_index% _size).addClass(options.activeTriggerCls);   //导航选中
                 $lists.promise().then(callback);
                 if($("ul li:first").attr("class")!="active"){
-                    $('video').trigger('pause');
+                	if(screen.width<400){
+					    $("video").remove();
+					  }else{
+					  	$('video').trigger('pause');
+					  }
                 }else{
-                    $('video').trigger('play');
+                	 if(screen.width<400){
+					    $("video").remove();
+					  }else{
+					  	$('video').trigger('play');
+					  }
+                    
                 }
             }
         };
