@@ -66,7 +66,12 @@
 					afterEvent:function(status){
 						$pages.eq(status.index).addClass('active').siblings().removeClass('active');
 					}
-				});			
+				});
+				if(screen.width<=768){
+
+					$("body").html("暂不支持移动端，仅支持PC端。")
+							
+				}	
 			})();
 		</script>
 		<script type="text/javascript">
