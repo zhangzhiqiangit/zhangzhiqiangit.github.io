@@ -18,11 +18,11 @@ html,body{
 			}
 			.slider .page2{
 				background-size: cover;
-				background-image:url('fly.jpg');"
+				background-image:url('../images/fly.jpg');"
 			}
 			.slider .page3{
 				background-size: cover;
-				background-image:url('bj.jpg');"
+				background-image:url('../images/bj.jpg');"
 			}
 			.slider .nav{
 				position:absolute;
@@ -206,11 +206,11 @@ html,body{
         * color: #000;
     }
      @font-face {font-family: 'iconfont';
-    src: url('font-face/iconfont.eot'); /* IE9*/
-    src: url('font-face/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('font-face/iconfont.woff') format('woff'), /* chrome、firefox */
-    url('font-face/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url('font-face/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+    src: url('../font-face/iconfont.eot'); /* IE9*/
+    src: url('../font-face/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font-face/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../font-face/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../font-face/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
 	}
 	.iconfont{
     font-family:"iconfont" !important;

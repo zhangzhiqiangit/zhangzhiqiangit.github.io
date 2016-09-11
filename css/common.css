@@ -33,7 +33,7 @@ footer p .spe{
 	margin-top:-215px;
 	width: 215px;
 	height: 430px;
-	background: url('../../image/right_bg.png') no-repeat;
+	background: url('../../../image/right_bg.png') no-repeat;
 }
 /*组件样式*/
 table{
@@ -99,7 +99,7 @@ pre{
 	margin:0 auto;
 	width: 170px;
 	height: 170px;
-	background:url('1.png') no-repeat;
+	background:url('../images/1.png') no-repeat;
 	text-indent: -999px;
 }
 .nav ul li{
