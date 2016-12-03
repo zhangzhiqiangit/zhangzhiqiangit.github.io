@@ -19,3 +19,6 @@
 .main ul li a:hover{
 	border-bottom: 1px dotted #666;
 }
+.nav a{
+	text-decoration:none;
+}
