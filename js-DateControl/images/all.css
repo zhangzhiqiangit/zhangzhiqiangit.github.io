@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+
+TABLE{
+cellpadding:0; cellspacing:0; margin-left:auto; margin-right:auto; border-collapse:collapse;} 
+
+.ymNaviBtn{
+height:15px; width:15px; margin-top:2px; float:left; margin-left:3px; margin-right:3px; overflow:hidden;}
+
+.btnTJ{
+	float:right;margin-right:5px;background-color:#5CB85C;color:#ffffff;border:none;border-radius:5px;font-size:12px;padding:2px 10px;font-weight:200;
+}
+.btnCZ{
+	float:right;margin-right:5px;background-color:#F0AD4E;color:#ffffff;border:none;border-radius:5px;font-size:12px;margin-bottom:5px;padding:2px 10px;font-weight:200;
+}
+
+.btnQX{
+	float:right;margin-right:5px;background-color:#AA0000;color:#ffffff;border:none;border-radius:5px;font-size:12px;margin-bottom:5px;padding:2px 10px;font-weight:200;
+}
+/**时间位置**/
+#myrl {
+    width: 490px;
+    height: 352px;
+ 
+
+}
+
+.unover {
+    background: #f4f1f1;
+    cursor: auto;
+}
+
+table.biao {
+    border-collapse: collapse;
+    font-family: "Times New Roman", "宋体";
+	table-layout:fixed;
+}
+
+.over {
+    background: #f0e68c;)
+}
+
+.topDateFont{
+font-size:12px; color:#000000;}
+
+/*===== dateSelection =====*/
+#dateSelectionDiv {
+	border: 1px solid #f8c173;
+	background: #fefef1;
+	position: absolute;
+	top: 25px;
+	z-index: 20;
+	width: 160px;
+	display: none;
+}
+
+#dateSelectionHeader {
+	width: 100%;
+	font-size: 0;
+}
+#dateSelectionBody {
+	width: 100%;
+}
+#dateSelectionFooter {
+	width: 100%;
+	font-size: 0;
+}
+#dateSeparator {
+	margin: 0 auto;
+	width: 152px;
+	height: 2px;
+	font-size: 0;
+}
+#dateSelectionBtn {
+	margin: 0 auto;
+	width: 133px;
+	height: 20px;
+	line-height: 20px;
+}
+#dateSelectionTodayBtn {
+	float: left;
+	width: 41px;
+	height: 20px;
+	cursor: pointer;
+}
+#dateSelectionOkBtn {
+	float: left;
+	text-align: center;
+	margin: 0 5px 0 5px;
+	width: 41px;
+	height: 20px;
+	cursor: pointer;
+}
+#dateSelectionCancelBtn {
+	float: right;
+	text-align: right;
+	width: 41px;
+	height: 20px;
+	cursor: pointer;
+}
+#yearList {
+	
+	height: 20px;
+	line-height: 20px;
+	color: green;
+}
+
+#yearListPrev {
+	float: left;
+	margin-left: 3px;
+	text-align: left;
+	width: 8px;
+	height: 20px;
+	cursor: pointer;
+	font-size:18px;
+	line-height:24px;
+}
+
+#yearListNext {
+	float: left;
+	margin-right: 3px;
+	text-align: right;
+	width: 8px;
+	height: 20px;
+	cursor: pointer;
+	font-size:18px;
+	line-height:24px;
+}
+
+#yearListContent {
+	float: left;
+	height: 20px;
+}
+
+#yearListContent .year {
+	float: left;
+	display: block;
+	width: 50px;
+	height: 20px;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#yearListContent .curr {
+	color: red;
+}
+
+#monthList {
+	margin: 0 1px 0 1px;
+	padding: 0 15px 0 15px;
+}
+
+#monthListContent .month {
+	float: left;
+	display: block;
+	width: 30px;
+	height: 15px;
+	margin: 2px;
+	line-height: 15px;
+	text-align: center;
+	cursor: pointer;
+	font-size:14px;
+}
+
+#monthListContent .curr {
+	color: red;
+}
+
+
+#myrl{
+font-size:12px;}
+
+/*main*/
+.lsArrow{
+background-image:url(tool-sprites.gif); background-position:0px 180px;}
+
+.lArrow{
+background-image:url(tool-sprites.gif); background-position:0px 255px;}
+
+.rsArrow{
+background-image:url(tool-sprites.gif); background-position:0px 195px;}
+
+.rArrow{
+background-image:url(tool-sprites.gif); background-position:0px 240px;}
+
+/*calendar*/
+.calTit{
+background-image:url(calTit.jpg);}
+.calWeekTit{
+background-color:#99BBE8; color:#15428B;}
+.calTit FONT{
+color:#15428B;}
+table.biao td {
+border: 1px solid #99BBE8;}
+
+.jinri {
+background: #cfdff0;}
+.cal_next{
+color:#15428B;}
+.selday {
+background: #FBBB67;}
